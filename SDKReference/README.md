@@ -2,7 +2,7 @@
 
 This project is a reference implementation on how an own SDK implementation against the Cumulocity API could look like. It specifically highlights the implementation against Cumulocitys OAuth Interface.
 
-# Structure
+# Structure 
 
 The example consists of a minimal example of:
 - A main controller utilizing the C8Y API
