@@ -7,7 +7,7 @@ WORKERS=5
 WORKER_DELAY="100ms"
 DATE_FROM="-365d"
 DATE_TO="0d"
-TIMEOUT="30m"
+TIMEOUT="60m"
 COPY_TYPES=measurements,events,alarms
 DEVICE_TUPLES=""
 
