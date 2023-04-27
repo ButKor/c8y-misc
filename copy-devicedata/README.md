@@ -75,7 +75,6 @@ Arguments:
   --dateTo <date|relative_date> : Only include measurements to a specific date
   --delay <interval> : Delay between after each concurrent worker. This is used to rate limit the workers (to protect the tenant)
   --types <csv_list> : CSV list of c8y data types, i.e. measurements,events,alarms
-  --query <string> : Inventory managed object query
   --force|-f : Don't prompt for confirmation
 ````
 
