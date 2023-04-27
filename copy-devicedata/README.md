@@ -43,7 +43,12 @@ A confirmation about your session should be printed in console. Make sure there 
 chmod +x copy-devicedata.sh
 ```
 
-6. Run the script. Usage instructions:
+6. Run the script. E.g. to copy all measurments, events and alarms between specific dates from Device ID 87161761932 towards ID 56161769526 this one can be used:
+````sh
+./copy-devicedata.sh  --dateFrom "2023-04-26T12:00:00.000Z" --dateTo "2023-04-27T23:12:34.567Z" --types measurements,events,alarms --device-tuples "87161761932:56161769526"
+````
+
+Complete usage instructions:
 
 ````
 Usage:
@@ -72,11 +77,6 @@ Arguments:
   --types <csv_list> : CSV list of c8y data types, i.e. measurements,events,alarms
   --query <string> : Inventory managed object query
   --force|-f : Don't prompt for confirmation
-````
-
-E.g. to copy all measurments, events and alarms between specific dates from Device ID 87161761932 towards ID 56161769526 this one can be used:
-````sh
-./copy-devicedata.sh  --dateFrom "2023-04-26T12:00:00.000Z" --dateTo "2023-04-27T23:12:34.567Z" --types measurements,events,alarms --device-tuples "87161761932:56161769526"
 ````
 
 7. You are done. The specified data should now be copied between your devices.
