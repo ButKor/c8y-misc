@@ -5,8 +5,8 @@ Project is utilizing https://github.com/reubenmiller/go-c8y-cli and is based on 
 
 # Usage
 
-1. Either clone the repository or copy `session.json` and `script.sh` files to a local repository. Both files needs to be in the same folder.
-2. Edit the session.json file. Please configure `host`, `username` and `password` to your tenant. 
+1. Either clone the repository or copy `session.json` and `copy-devicedata.sh` files to a local folder. Both files needs to be in the same folder.
+2. Edit the session.json file. Please configure `host`, `username` and `password` fields to your tenant. 
 ````json
 {
     "$schema": "https://raw.githubusercontent.com/reubenmiller/go-c8y-cli/v2/tools/schema/session.schema.json",
