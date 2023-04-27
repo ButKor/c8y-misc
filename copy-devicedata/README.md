@@ -29,7 +29,7 @@ Project is utilizing https://github.com/reubenmiller/go-c8y-cli and is based on 
 ````
 3. Open a shell and navigate towards your directory. Once there, run a Container in interactive mode (note that the two files are mounted):
 ````sh
-docker run -it -v $(pwd)/session.json:/sessions/session.json -v $(pwd)/copy-devices.sh:/home/c8yuser/copy-devices.sh --rm ghcr.io/reubenmiller/c8y-shell
+docker run -it -v $(pwd)/session.json:/sessions/session.json -v $(pwd)/copy-devicedata.sh:/home/c8yuser/copy-devicedata.sh --rm ghcr.io/reubenmiller/c8y-shell
 ````
 4. Within the container, run `set-session` once. This will configure the tooling towards using the tenant stated in session.json.
 ````sh
