@@ -36,7 +36,7 @@ Server Response: {"owner":{"self":"https://t12345.eu-latest.cumulocity.com/tenan
 Extracted Application ID: 106527
 
 Activating the application...
-Server Response: {"self":"https://t12345.eu-latest.cumulocity.com/http://t12345.eu-latest.cumulocity.com/tenant/tenants/t12345/106527","application":{"owner":{"self":"https://t12345.eu-latest.cumulocity.com/tenant/tenants/t12345","tenant":{"id":"t12345"}},"requiredRoles":["ROLE_EVENT_READ","ROLE_EVENT_ADMIN","ROLE_ALARM_READ","ROLE_ALARM_ADMIN"],"manifest":{"requiredRoles":[],"roles":[],"billingMode":"RESOURCES","noAppSwitcher":true,"settingsCategory":null},"roles":[],"contextPath":"hello","availability":"MARKET","type":"MICROSERVICE","name":"hello","self":"https://t12345.eu-latest.cumulocity.com/application/applications/106527","id":"106527","key":"hello-key"}}
+Server Response: {"self":"http://t12345.eu-latest.cumulocity.com/tenant/tenants/t12345/106527","application":{"owner":{"self":"https://t12345.eu-latest.cumulocity.com/tenant/tenants/t12345","tenant":{"id":"t12345"}},"requiredRoles":["ROLE_EVENT_READ","ROLE_EVENT_ADMIN","ROLE_ALARM_READ","ROLE_ALARM_ADMIN"],"manifest":{"requiredRoles":[],"roles":[],"billingMode":"RESOURCES","noAppSwitcher":true,"settingsCategory":null},"roles":[],"contextPath":"hello","availability":"MARKET","type":"MICROSERVICE","name":"hello","self":"https://t12345.eu-latest.cumulocity.com/application/applications/106527","id":"106527","key":"hello-key"}}
 
 Extracting bootstrap user from the application...
 Found bootstrap user: servicebootstrap_hello
