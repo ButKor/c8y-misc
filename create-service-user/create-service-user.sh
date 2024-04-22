@@ -2,7 +2,8 @@
 
 # configure service details
 SERVICE_NAME=hello
-SERVICE_ROLES='["ROLE_EVENT_READ","ROLE_EVENT_ADMIN","ROLE_ALARM_READ","ROLE_ALARM_ADMIN"]'
+# the required roles for each API call can be found in https://cumulocity.com/api/core/
+SERVICE_ROLES='["ROLE_EVENT_READ","ROLE_EVENT_ADMIN","ROLE_ALARM_READ","ROLE_ALARM_ADMIN"]' 
 
 # configure tenant connection
 TENANT_BASEURL=https://example.cumulocity.com
